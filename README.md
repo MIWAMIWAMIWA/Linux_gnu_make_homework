@@ -54,4 +54,4 @@ Even if we have file named clean we added rule .Phony = clean so we ignore if fi
 
 If we enter the wrong BUILD_METHOD or ignore it: error: wrong BUILD_METHOD enviroment variable, allowed methods: make and include.
 
-
+### There also added .png with screenshots of execution
