@@ -5,9 +5,9 @@
 Part 1:
     1) Add several (at least 2) source code files (main.c, src1.c)
     2) Create 3 make files, each of which should create an executable file:
-            2.1) The first makefile with one simple target that should assemble an executable file from all existing files in the directory
-            2.2) The second make file must have several targets (one target for each source code file) without any auto-variables
-            2.3) The third make-file is the same as the second, only with the use of auto-variables
+    2.1) The first makefile with one simple target that should assemble an executable file from all existing files in the directory
+    2.2) The second make file must have several targets (one target for each source code file) without any auto-variables
+    2.3) The third make-file is the same as the second, only with the use of auto-variables
 
 Most important files: Makefile1 Makefile2 Makefile3 (Makefile for clean)
 ### To build respectively Makefile1, Makefile2, Makefile3
