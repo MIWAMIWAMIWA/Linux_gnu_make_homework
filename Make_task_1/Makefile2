@@ -1,0 +1,8 @@
+program2: main.o src1.o
+	gcc main.o src1.o -o program2
+
+main.o: main.c
+	gcc -c main.c -o main.o
+
+src1.o: src1.c
+	gcc -c src1.c -o src1.o

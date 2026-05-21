@@ -1,0 +1,13 @@
+TARGET = program3
+
+SRCS = $(wildcard *.c)
+OBJS = $(SRCS:.c =.o)
+
+# $@ its for target , $^ for all sources
+$(TARGET): $(OBJS)
+	gcc $^ -o $@
+
+# $< for first source, same $@ for the target
+%.o: %.c
+	gcc -c $< -o $@
+
